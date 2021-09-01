@@ -81,7 +81,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-Any computer belonging to millennia III will work.
+Any computer belonging to millennia II will work.
 
 ### Installation
 
