@@ -87,7 +87,7 @@ Any computer belonging to millennia III will work.
 
 1. Clone the repo.
    ```sh
-   git clone https://github.com/CodecoolGlobal/ask-mate-3-python-stefaniarotaru
+   git clone https://github.com/Robert5435/AskMate
    ```
     For a guide how to clone a Git Repo press [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository).
 
@@ -109,7 +109,7 @@ You can create,update,delete posts. Upvote, downvote od comment to other posts.
 
 Nita Robert - [robert.nitza5@gmail.com](robert.nitza5@gmail.com)
 
-Project Link: [https://github.com/CodecoolGlobal/ask-mate-3-python-stefaniarotaru](https://github.com/CodecoolGlobal/ask-mate-3-python-stefaniarotaru)
+Project Link: [https://github.com/Robert5435/AskMate](https://github.com/Robert5435/AskMate)
 
 
 
