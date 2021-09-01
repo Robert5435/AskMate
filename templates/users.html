@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/style.css"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.discordapp.com/attachments/730458730331897949/775703314762563653/favicon-310.png">
+    <title>Users</title>
+</head>
+<body>
+
+    <h1>ASK  — MATE</h1>
+    <br>
+
+    <h2 id="page-title"> Registered users</h2>
+<div class="users-table-background">
+    <table class="users-table">
+        <div id="user-table-header">
+            <th id="id-th">ID</th>
+            <th>Username</th>
+            <th>Registration Date</th>
+            <th>Questions Posted</th>
+            <th>Answers Posted</th>
+            <th>Comments Posted</th>
+            <th>Reputation</th>
+        </div>
+        <tr><td id="blank-stupid-workaround"> .</td></tr>
+        
+        {% for user in users_db %}
+        <tr id="user-table-row">
+            <td>{{user['id']}}</td>
+            <td>{{user['username']}}</td>
+            <td>{{user['date_of_reg_utc']}}</td>
+            <td>{{user['qcount']}}</td>
+            <td>{{user['acount']}}</td>
+            <td>{{user['acount']}}</td>
+            <td>{{user['reputation']}}</td>            
+        </tr>
+        {% endfor %}
+        
+    </table>
+    </div>
+
+</body>
+</html>

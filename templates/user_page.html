@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Page</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.discordapp.com/attachments/730458730331897949/775703314762563653/favicon-310.png">
+</head>
+<body>
+    <h1>ASK  — MATE</h1>
+
+    <br>
+<h2 id="page-title">My Profile</h2>
+
+    <section class = "user-overlay">
+        <div class= "user-info">
+            <table class="user-table">
+            <tr id = "info">
+                <td id="td-user-info">Username</td>
+                <td>{{user_details['username']}}</td>
+            </tr>
+            <tr id = "info">
+                <td id="td-user-info">ID: </td>
+                    <td>{{user_details['id']}}</td>
+            </tr>
+            <tr id = "info">
+                <td id="td-user-info">Date of registration</td> 
+                <td>{{user_details['date_of_registration']}}</td>
+            </tr>
+            <tr id = "info">
+                <td id="td-user-info">Questions posted </td>
+                <td>{{user_counts['questions']}}</td>
+            </tr>
+            <tr id = "info">
+                <td id="td-user-info">Answers Posted</td>
+                <td>{{user_counts['answers']}}</td>
+            </tr>
+            <tr id = "info">
+                <td id="td-user-info">Comments</td>
+                <td>{{user_counts['comments']}}</td>
+            </tr>
+            <tr id = "info">
+                <td id="td-user-info">Reputation</td> 
+                <td>{{user_details['reputation']}}</td>
+            </tr>
+            </table>
+        </div>
+    </section>
+</body>
+</html>
