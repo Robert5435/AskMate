@@ -110,10 +110,12 @@ You can create,update,delete posts. Upvote, downvote od comment to other posts.
 
 ## Screenshots
 <p>Users may upload images related to their questions/answers</p>
-https://user-images.githubusercontent.com/67429581/138865858-80fa5f5d-0fbc-4f4d-a826-00923a062a8b.png
+
+![add_image_to_question](https://user-images.githubusercontent.com/67429581/138866851-7218510d-0886-41cb-8a6b-e90c2110def9.png)
 
 <p>There is a reputation system awarded for questions that receive up-votes, visible in a user list (along with other info)</p>
-https://user-images.githubusercontent.com/67429581/138865867-739521c0-fe99-4003-b65e-301425f519de.png
+
+![users_stats](https://user-images.githubusercontent.com/67429581/138866867-42a8ec3a-531f-4adc-978c-005db22a08cb.png)
 
 
 <!-- CONTACT -->
