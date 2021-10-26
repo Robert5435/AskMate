@@ -57,7 +57,11 @@
 
 <p align="left">
     <br />
-   AskMate is a forum where users can post, comment, upvote or downvote a post. They can add pictures to posts aswell
+   Ask Mate is a web application designed to have the functionality of a forum.
+
+Users may ask and answer questions, up-vote or down-vote questions based on their appreciation.
+Questions can be tagged (for reference).
+Both answers and questions can be edited if users feel they need to correct the wording in that topic.
 <br/>
 The project has been built using flask web framework
 
@@ -102,6 +106,14 @@ Any computer belonging to millennia II will work.
 ## Usage
 
 You can create,update,delete posts. Upvote, downvote od comment to other posts.
+
+
+## Screenshots
+<p>Users may upload images related to their questions/answers</p>
+https://user-images.githubusercontent.com/67429581/138865858-80fa5f5d-0fbc-4f4d-a826-00923a062a8b.png
+
+<p>There is a reputation system awarded for questions that receive up-votes, visible in a user list (along with other info)</p>
+https://user-images.githubusercontent.com/67429581/138865867-739521c0-fe99-4003-b65e-301425f519de.png
 
 
 <!-- CONTACT -->
